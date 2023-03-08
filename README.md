@@ -1,4 +1,6 @@
 # web
 
-lesson 1 - https://naimhakimov.github.io/web/lesson_1.html
-lesson 2 - https://naimhakimov.github.io/web/lesson_2.html
+lesson 1 - https://web-lesson.netlify.app
+lesson 2 - https://web-lesson.netlify.app/lesson_2.html
+lesson 3 - https://web-lesson.netlify.app/lesson_3.html
+lesson 4 - https://web-lesson.netlify.app/lesson_4.html
