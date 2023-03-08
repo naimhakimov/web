@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>Lesson 2</title>
+    <title>Lesson 3</title>
 </head>
 
 <style>
@@ -18,6 +18,7 @@
         margin: 0 auto;
         color: #444444;
     }
+
     * {
         font-family: 'Roboto', sans-serif;
     }
@@ -39,27 +40,22 @@
         font-size: 35px;
         line-height: 40px;
     }
+
     header p {
         max-width: 300px;
         text-align: center;
     }
 
     main {
-        margin: 150px auto 0 auto;
+        margin: 40px auto 0 auto;
         max-width: 600px;
     }
 
-    footer {
-        margin-top: 40px;
+    ul {
         display: flex;
-        column-gap: 40px;
-        align-items: center;
-        justify-content: center;
-        padding: 0 15px;
-        background: #847462;
-        color: white;
+        flex-direction: column;
+        gap: 30px;
     }
-
 </style>
 <body>
 <section>
@@ -69,28 +65,41 @@
         <p>Разнообразные товары для дома с доставкой по всей планете</p>
     </header>
 
+    <div style="display: flex; justify-content: center; margin-top: -45px">
+        <img src="./img/img.png" alt="">
+    </div>
+
     <main>
 
         <h2>Что поможет вам создать домашний уют?</h2>
+        <div style="display: flex; gap: 70px">
 
-        <p style="text-transform: uppercase">Мебель и фигура</p>
-        <p style="text-transform: uppercase">Лампы и торшеры</p>
+            <div>
+                <img src="./img/img_1.png" alt="">
+                <p style="text-transform: uppercase">Мебель и <br> фигура</p>
+            </div>
+
+            <div>
+                <img src="./img/img_2.png" alt="">
+                <p style="text-transform: uppercase">Лампы и торшеры</p>
+            </div>
+
+            <div>
+                <img src="./img/img_3.png" alt="">
+                <p style="text-transform: uppercase">Аксессуары и <br> Мелочи</p>
+            </div>
+        </div>
+
 
         <h2>Что выделяет нас среди конкурентов?</h2>
 
         <ul>
-            <li>Ежедневные отчёты о ходе работ</li>
             <li>Используем только природные материалы</li>
             <li>Сами соберём мебель для вас</li>
             <li>Бесплатное гарантирование обслуживание в течение 10 лет</li>
+            <li>Доставка в день заказа</li>
         </ul>
     </main>
-
-    <footer>
-        <p>&copy; Кекс, 2023</p>
-
-        <p>Магазин товаров для дома</p>
-    </footer>
 </section>
 </body>
 </html>
