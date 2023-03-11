@@ -3,5 +3,9 @@
 ?>
 
 <?php 
+    require ('content.php')
+?>
+
+<?php 
     require ('footer.php')
 ?>
